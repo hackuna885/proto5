@@ -1,0 +1,87 @@
+@font-face {
+   font-family: "Gotham-Ultra";
+   src: url("fonts/Gotham-Ultra.otf");
+}
+@font-face {
+   font-family: "Gotham-Bold";
+   src: url("fonts/Gotham-Bold.otf");
+}
+a:link   
+{   
+ text-decoration:none; 
+ color:#ffffff;  
+}   
+a:visited {color:#ffffff;}
+a:active {color:#ffffff;}
+a:hover {color:#ffffff;}	
+
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	html,body{
+		height: 100%;
+	    background-color: #000;
+	    min-height: 760px;
+		}
+	body{
+        background-image: url("../img/fondo.jpg");
+        background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center center;
+    	background-attachment: fixed;
+    	display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: flex;
+		-webkit-justify-content: center;
+		        -ms-flex-pack: center;
+		    -webkit-box-pack: center;
+		        justify-content: center;
+		    -webkit-align-items: center;
+		            -ms-flex-align: center;
+		        -webkit-box-align: center;
+		            align-items: center;
+		min-height: 100vh;
+        }
+    .cuadroRegGral2{
+    	background-color: rgba(226,5,0,.5);
+    	-webkit-border-radius: 8px;
+    	        border-radius: 8px;
+    	padding: 20px;
+    	font-family: "Gotham-Bold";
+    	
+    }
+    h1{
+    	text-align: center;
+    	color: #FFF;
+    }
+    .infoTxtInput{
+    	color: #FFF;
+    	padding: 10px 0px;
+    }
+    .formText{
+    	width: 300px;
+    	height: 40px;
+    	border: 0px solid;
+    	-webkit-border-radius: 3px;
+    	        border-radius: 3px;
+    	padding: 0px 10px;
+    	font-size: 1em;
+    }
+    .btnLoginUno{
+    	width: 99%;
+    	height: 50px;
+    	font-family: "Gotham-Bold";
+      	color: #FFF;
+      	font-size: 1em;
+      	line-height: 50px;
+      	border: 0px solid;
+      	-webkit-border-radius: 3px;
+      	        border-radius: 3px;
+      	cursor: pointer;
+      	background-color: rgba(0,0,0,.7);
+    }
+
+

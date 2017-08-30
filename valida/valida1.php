@@ -28,7 +28,7 @@ if (isset($_POST['txtCorreo']) && !empty($_POST['txtCorreo'])) {
 		$_SESSION['clvCat'] = $clvCat;
 
 			echo '
-				<input type="password" id="txtPassword" class="inp inpPassword" onkeypress="btnFormAjax2(event)" placeholder="Password..."/>
+				<input type="password" id="txtPassword" class="inp inpPassword animated fadeInDown" onkeypress="btnFormAjax2(event)" placeholder="Password..."/>
 				<br>
 				<div class="cBotonLogin pos2" onclick="formAjax3()"" >
 					<div class="txtBoton">
@@ -40,7 +40,7 @@ if (isset($_POST['txtCorreo']) && !empty($_POST['txtCorreo'])) {
 		
 	}else{
 		echo '
-		<span class="spanTexto">Correo no registrado</span>
+		<span class="spanTexto animated zoomIn">Correo no registrado</span>
 		<br>
 			<div class="cBotonLogin pos2" onclick="formAjax2()"" >
 					<div class="txtBoton">
@@ -53,7 +53,7 @@ if (isset($_POST['txtCorreo']) && !empty($_POST['txtCorreo'])) {
 	}
 }else{
 	echo'
-	<span class="spanTexto">Falta Correo</span>
+	<span class="spanTexto animated zoomIn">Falta Correo</span>
 	<br>
 			<div class="cBotonLogin pos2" onclick="formAjax2()"" >
 					<div class="txtBoton">

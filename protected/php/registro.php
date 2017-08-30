@@ -4,14 +4,16 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Crea tu cuenta</title>
-	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../css/registro.css">
+	<link rel="stylesheet" href="../css/font-awesome.css">
+	<link rel="stylesheet" href="../css/animate.css">
 	
 </head>
-<body>
+<body class="animated fadeIn">
 	<div id="main-wrapper">
-		<div class="cuadroRegGral2">
+		<div class="cuadroRegGral2 animated bounceInRight">
 		<br>
-			<h2>Crea tu cuenta</h2>
+			<h1>CREA TU CUENTA</h1>
 			<br>
 				<form action="insRegistro.php" method="post">
 					<p class="infoTxtInput">Nombre:</p>
@@ -32,10 +34,13 @@
 					<p class="infoTxtInput">Clave Catastral:</p>
 					<input type="text" name="txtClvCat" placeholder="16 Dígitos" class="formText" maxlength="16" minlength="16" required />
 					<br>
-					<input type="submit"  value="Siguiente" class="btnLoginUno"/>
-					<div class="marcaAgua">
-					<img src="../../css/img/agua.svg" class="marcaAguaX">
-					</div>
+					<br>
+					<button type="submit" class="btnLoginUno">SIGUIENTE <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+					<br>
+					<br>
+					<a href=".."><button type="button" class="btnLoginUno"><i class="fa fa-chevron-left" aria-hidden="true"></i> REGRESAR</button></a>
+					
+					
 				
 				</form>
 		</div>

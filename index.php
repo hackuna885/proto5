@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
 	<title>Proto 5</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" href="css/animate.css">
 
 <!-- animaciones -->
 <?php include("assets/inc/libreriasAnima.php"); ?>
@@ -15,18 +17,19 @@
 	<!-- script de ajax -->
 
 </head>
-<body>
+<body class="animated fadeIn">
 
 	<div class="c1">
+		<h1 class="titulo animated bounceInDown">CONSULTA PREDIAL</h1>
 		<div class="c2">
 			
-			<div class="cLogo" data-animate-scroll='{"x": "-100","y": "0", "alpha": "0", "duration": ".9"}'>
+			<div class="cLogo animated fadeInLeft">
 					<div class="logo"></div>
 			</div>
 
 
 
-			<div class="cLogin">
+			<div class="cLogin animated flipInX">
 
 				<div class="c2Titulo">INICIO</div>
 
@@ -38,7 +41,7 @@
 
 
 				<div class="cBtnRegistro">
-						<a href="#">
+						<a href="registro/Usuarios.aspx">
 							<div class="btnRegistro"></div>
 							<div class="txtBtnReg">
 								Registro
@@ -48,7 +51,7 @@
 
 			</div>
 
-			<div class="cBotonLogin btnOcultar" onclick="formAjax2()" data-animate-scroll='{"x": "100", "y": "0", "alpha": "0", "duration": ".9"}'>
+			<div class="cBotonLogin btnOcultar animated fadeInRight" onclick="formAjax2()">
 					<div class="txtBoton">
 						CONTINUAR
 					</div>

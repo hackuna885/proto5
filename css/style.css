@@ -22,6 +22,8 @@ a:hover {color:#ffffff;}
 		}
 		html,body{
 			height: 100%;
+      background-color: #000;
+      
 		}
 		body{
         background-image: url("../img/fondo.jpg");
@@ -30,16 +32,11 @@ a:hover {color:#ffffff;}
     		background-position: center center;
     		background-attachment: fixed;
         }
-    .hackuna{
-      width: 200px;
-      height: 100px;
-      position: absolute;
-      margin: auto;
-      top: 0px;
-      bottom: 0px;
-      left: 0px;
-      right: 0px;
-      background-color: red;
+    .titulo{
+      font-family: "Gotham-Bold";
+      font-size: 1.3em;
+      color: #FFF;
+      text-align: center;
     }
     .c1{
       width: 240px;
@@ -167,6 +164,7 @@ a:hover {color:#ffffff;}
       height: 142px;
       top: 232px;
       right: 0px;
+      cursor: pointer;
       background-image: url("../img/botonLogin.svg");
       background-position: center;
         background-size: cover;
